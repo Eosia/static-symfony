@@ -1,0 +1,23 @@
+@import 'variables.scss';
+
+/*scss du footer*/
+
+footer {
+    background-color: #004059 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    min-height: 5vh;
+    background-position: bottom;
+    bottom: 0;
+    clear: both;
+
+    .copyright {
+        color: $color2 !important;
+        font-size: 1.4em;
+        letter-spacing: 0.3em;
+        font-family: $font2;
+
+    }
+
+}

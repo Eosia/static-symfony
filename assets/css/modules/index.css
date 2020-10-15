@@ -1,0 +1,56 @@
+/*scss section home page accueil*/
+/*pagination nav*/
+.pagination-nav {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+  height: auto !important;
+}
+
+/*posts*/
+.post-preview {
+  display: flex;
+  flex-direction: column !important;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  border: 1px solid black;
+}
+.post-preview .row .post-brand {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.post-preview .row .post-brand .post-title {
+  width: 40%;
+  height: auto;
+  margin: auto;
+}
+.post-preview .row .post-brand .post-category {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+.post-preview .row .post-body {
+  display: flex;
+  flex-direction: row;
+}
+.post-preview .row .post-body .post-img {
+  width: 40%;
+  height: auto;
+  margin: auto;
+}
+.post-preview .row .post-body .post-content {
+  width: 60%;
+  height: auto;
+  margin: auto;
+}
+.post-preview .row .post-body .post-content .post-article {
+  width: 80% !important;
+  width: auto;
+}
+
+/*# sourceMappingURL=index.css.map */

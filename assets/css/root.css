@@ -1,0 +1,231 @@
+@charset "UTF-8";
+/* import des feuilles scss*/
+/* variables des 3 couleurs du site */
+/*noir*/
+/*vert*/
+/*rouge*/
+/* variables des 3 polices d'écriture */
+@font-face {
+  font-family: "font1";
+  src: url("../font/Mad Hacker.ttf");
+}
+@font-face {
+  font-family: "font2";
+  src: url("../font/EMYRLAdemo.ttf");
+}
+/*scss section home page accueil*/
+/*pagination nav*/
+.pagination-nav {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100% !important;
+  height: auto !important;
+}
+
+/*posts*/
+.post-preview {
+  display: flex;
+  flex-direction: column !important;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  border: 1px solid black;
+}
+.post-preview .row .post-brand {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.post-preview .row .post-brand .post-title {
+  width: 40%;
+  height: auto;
+  margin: auto;
+}
+.post-preview .row .post-brand .post-category {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+.post-preview .row .post-body {
+  display: flex;
+  flex-direction: row;
+}
+.post-preview .row .post-body .post-img {
+  width: 40%;
+  height: auto;
+  margin: auto;
+}
+.post-preview .row .post-body .post-content {
+  width: 60%;
+  height: auto;
+  margin: auto;
+}
+.post-preview .row .post-body .post-content .post-article {
+  width: 80% !important;
+  width: auto;
+}
+
+/* variables des 3 couleurs du site */
+/*noir*/
+/*vert*/
+/*rouge*/
+/* variables des 3 polices d'écriture */
+@font-face {
+  font-family: "font1";
+  src: url("../font/Mad Hacker.ttf");
+}
+@font-face {
+  font-family: "font2";
+  src: url("../font/EMYRLAdemo.ttf");
+}
+/*scss de la page de contact*/
+/* variables des 3 couleurs du site */
+/*noir*/
+/*vert*/
+/*rouge*/
+/* variables des 3 polices d'écriture */
+@font-face {
+  font-family: "font1";
+  src: url("../font/Mad Hacker.ttf");
+}
+@font-face {
+  font-family: "font2";
+  src: url("../font/EMYRLAdemo.ttf");
+}
+/*scss du footer*/
+footer {
+  background-color: #004059 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  min-height: 5vh;
+  background-position: bottom;
+  bottom: 0;
+  clear: both;
+}
+footer .copyright {
+  color: #10b707 !important;
+  font-size: 1.4em;
+  letter-spacing: 0.3em;
+  font-family: "font2";
+}
+
+/* variables des 3 couleurs du site */
+/*noir*/
+/*vert*/
+/*rouge*/
+/* variables des 3 polices d'écriture */
+@font-face {
+  font-family: "font1";
+  src: url("../font/Mad Hacker.ttf");
+}
+@font-face {
+  font-family: "font2";
+  src: url("../font/EMYRLAdemo.ttf");
+}
+/* scss de la navbar*/
+.navbar {
+  background-color: #004059 !important;
+}
+
+.nav-link {
+  color: #10b707 !important;
+}
+
+.nav-item {
+  font-size: 1.6em;
+  font-family: "font2" !important;
+  letter-spacing: 0.2em;
+}
+
+.nav-logo {
+  width: 150px !important;
+  height: auto;
+}
+
+.navbar-toggler {
+  background-color: #10b707 !important;
+}
+
+.current {
+  color: #ff0000 !important;
+}
+
+/* variables des 3 couleurs du site */
+/*noir*/
+/*vert*/
+/*rouge*/
+/* variables des 3 polices d'écriture */
+@font-face {
+  font-family: "font1";
+  src: url("../font/Mad Hacker.ttf");
+}
+@font-face {
+  font-family: "font2";
+  src: url("../font/EMYRLAdemo.ttf");
+}
+/* variables des 3 couleurs du site */
+/*noir*/
+/*vert*/
+/*rouge*/
+/* variables des 3 polices d'écriture */
+@font-face {
+  font-family: "font1";
+  src: url("../font/Mad Hacker.ttf");
+}
+@font-face {
+  font-family: "font2";
+  src: url("../font/EMYRLAdemo.ttf");
+}
+/* scss du header */
+header {
+  width: 100%;
+  clear: both;
+  margin: 0 auto;
+  height: auto;
+  min-height: 70vh;
+  background-image: url("../img/header-back.jpg") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  z-index: 1;
+}
+header .container-fluid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 20vh;
+  z-index: 6;
+}
+header .container-fluid h1, header .container-fluid h2 {
+  text-transform: uppercase;
+  font-family: "font1";
+  color: #10b707;
+}
+header .container-fluid h1 {
+  font-size: 3.2em;
+}
+header .container-fluid h2 {
+  font-size: 1.6em;
+  padding-top: 5vh;
+}
+
+/* variables des 3 couleurs du site */
+/*noir*/
+/*vert*/
+/*rouge*/
+/* variables des 3 polices d'écriture */
+@font-face {
+  font-family: "font1";
+  src: url("../font/Mad Hacker.ttf");
+}
+@font-face {
+  font-family: "font2";
+  src: url("../font/EMYRLAdemo.ttf");
+}
+
+/*# sourceMappingURL=root.css.map */

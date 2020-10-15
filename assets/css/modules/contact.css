@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* variables des 3 couleurs du site */
+/*noir*/
+/*vert*/
+/*rouge*/
+/* variables des 3 polices d'écriture */
+@font-face {
+  font-family: "font1";
+  src: url("../font/Mad Hacker.ttf");
+}
+@font-face {
+  font-family: "font2";
+  src: url("../font/EMYRLAdemo.ttf");
+}
+/*scss de la page de contact*/
+
+/*# sourceMappingURL=contact.css.map */

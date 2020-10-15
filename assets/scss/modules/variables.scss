@@ -1,0 +1,23 @@
+/* variables des 3 couleurs du site */
+
+/*noir*/
+$color1 : #000000;
+/*vert*/
+$color2 : #10b707;
+/*rouge*/
+$color3 : #ff0000;
+
+/* variables des 3 polices d'écriture */
+
+$font1 : "font1"; 
+@font-face {
+    font-family: "font1";
+    src: url("../font/Mad\ Hacker.ttf");
+}
+
+$font2 : "font2"; 
+@font-face {
+    font-family: "font2";
+    src: url("../font/EMYRLAdemo.ttf");
+}
+

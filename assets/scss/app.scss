@@ -1,0 +1,26 @@
+@import 'modules/variables.scss';
+
+html, body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* classe pour élément à cacher */
+.hidden {
+    display: none;
+}
+
+/*section provisoire*/
+section{
+    min-height: 50vh;
+}
+
+/*search box*/
+.search-box{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    input{
+        border-radius: 30px;
+    }
+}
